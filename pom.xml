@@ -16,7 +16,7 @@
     <version>2.0.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
-    <name>AWS SQS Build Trigger Plugin</name>
+    <name>AWS SQS Build Trigger Plugin Propel</name>
     <description>
         This plugin triggers builds based on events received via Amazon Web
         Services Simple Queue Service (AWS SQS) on a specified Queue.
@@ -97,6 +97,12 @@
     </pluginRepositories>
 
     <dependencies>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.9</version>
+        </dependency>
 
         <dependency>
             <groupId>com.amazonaws</groupId>
